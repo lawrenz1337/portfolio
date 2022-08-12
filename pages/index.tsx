@@ -8,6 +8,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Mykhailo Diachuk | Full-Stack Developer</title>
         <meta name="description" content="Frontend 🤝 Backend 🔥 JavaScript" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Landing />
     </>

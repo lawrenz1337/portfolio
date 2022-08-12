@@ -4,10 +4,10 @@ import { Header } from './Header'
 
 export const Landing = () => {
   return (
-    <motion.div className="h-screen w-full flex items-center justify-center dark:bg-black relative transition-colors">
+    <motion.div className="bg-white h-screen w-full flex items-center justify-center dark:bg-black relative transition-colors overflow-hidden">
       <Header />
-      <div className="flex items-center justify-center flex-col gap-8">
-        <motion.h1 className="text-5xl w-fit dark:text-white transition-colors font-mono">
+      <div className="flex items-center justify-center flex-col gap-8 overflow-hidden">
+        <motion.h1 className="text-black text-2xl md:text-5xl w-fit dark:text-white transition-colors font-mono">
           hey, I&apos;m
           <span className="relative">
             <span className="text-teal-400"> lawreNz1337&nbsp;</span>
@@ -22,7 +22,7 @@ dark:bg-black -bottom-0 -top-1 animate-type will-change-transform transition-col
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 2 }}
-          className="text-black dark:text-white text-3xl font-sans"
+          className="text-black dark:text-white text-2xl md:text-3xl font-sans transition-colors"
         >
           and I do
         </motion.span>
@@ -30,7 +30,7 @@ dark:bg-black -bottom-0 -top-1 animate-type will-change-transform transition-col
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 2.5 }}
-          className="uppercase font-Silk text-teal-400 text-8xl animate-font"
+          className="uppercase font-Silk text-teal-400 text-6xl md:text-8xl animate-font"
         >
           frontend
         </motion.span>

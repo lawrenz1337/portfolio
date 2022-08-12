@@ -10,8 +10,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  color-scheme: none !important;
+:root,
+html.light {
+  background: #fff;
+}
+
+:root,
+html.dark {
+  background: #000;
 }
 
 ::selection {
