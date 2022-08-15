@@ -1,0 +1,2 @@
+User-agent: *
+Host: https://lawrenz1337.dev
