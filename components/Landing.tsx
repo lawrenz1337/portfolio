@@ -30,7 +30,7 @@ dark:bg-black -bottom-0 -top-1 animate-type will-change-transform transition-col
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 2.5 }}
-          className="w-full flex items-center justify-center text-center transition-all uppercase font-Marker text-teal-400 text-6xl md:text-8xl drop-shadow-blackText dark:drop-shadow-whiteText"
+          className="w-[calc(100%+10px)] flex items-center justify-center text-center transition-all uppercase font-Marker text-teal-400 text-6xl md:text-8xl drop-shadow-blackText dark:drop-shadow-whiteText"
         >
           frontend
         </motion.span>
