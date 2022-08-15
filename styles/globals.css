@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Silkscreen:400,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Silkscreen:400,700&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Space+Grotesk:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One:400,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Space+Grotesk:400,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Racing+Sans+One:400,700&display=swap'); */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root,
+html {
+  transition: all 0.15s ease-in-out;
+}
 
 :root,
 html.light {

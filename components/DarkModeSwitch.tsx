@@ -41,9 +41,9 @@ export default function DarkModeSwitch() {
       >
         <motion.div whileTap={{ rotate: 360 }}>
           {currentTheme === 'light' ? (
-            <RiSunFill className="h-6 w-6 text-yellow-300" />
+            <RiSunFill className="h-6 w-6 text-yellow-200" />
           ) : (
-            <RiMoonClearFill className="h-6 w-6 text-slate-200" />
+            <RiMoonClearFill className="h-6 w-6 text-blue-200" />
           )}
         </motion.div>
       </motion.div>
