@@ -12,7 +12,7 @@
     "@formspree/core": "^2.7.1",
     "@formspree/react": "^2.3.1",
     "axios": "^0.27.2",
-    "framer-motion": "^7.1.0",
+    "framer-motion": "^7.1.2",
     "next": "12.2.5",
     "next-themes": "^0.2.0",
     "react": "18.2.0",
