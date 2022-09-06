@@ -191,12 +191,13 @@
     fetch-ponyfill "^6.1.0"
     promise-polyfill "^8.1.3"
 
-"@formspree/react@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@formspree/react/-/react-2.3.1.tgz#f8015e5b440839b480adb3086ea0b0f0fa7e165f"
-  integrity sha512-rmGpxekkPxKJJZA5TRkEbburZwAz1xoLlAlD0rCsYH9/Hbo9oduqbXO7VRUnbl3fnz2OY5WmmQePfYkwUKi57A==
+"@formspree/react@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@formspree/react/-/react-2.4.0.tgz#156249a7832b13c869c0badf86bb920a529ed0a0"
+  integrity sha512-7zPt9tjX0zEiqJhbz5S35+AFyAz76iIJ5Qu9Mw+25kgO+FfmA1i9APakbJG57UsqEGT/dLX2aQa824A87zUtQw==
   dependencies:
     "@stripe/react-stripe-js" "^1.7.1"
+    "@stripe/stripe-js" "^1.35.0"
 
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.4"
@@ -412,7 +413,7 @@
   dependencies:
     prop-types "^15.7.2"
 
-"@stripe/stripe-js@^1.29.0":
+"@stripe/stripe-js@^1.29.0", "@stripe/stripe-js@^1.35.0":
   version "1.35.0"
   resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.35.0.tgz#f809e2e5e0a00f01aa12e8aed0b89d27728c05c0"
   integrity sha512-UIuzpbJqgXCTvJhY/aZYvBtaKdMfQgnIv6kkLlfRJ9smZcC4zoPvq3j7k9wobYI+idHAWP4BRiPnqA8lvzJCtg==
