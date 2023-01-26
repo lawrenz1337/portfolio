@@ -11,7 +11,7 @@
   "dependencies": {
     "@formspree/core": "^2.7.1",
     "@formspree/react": "^2.4.1",
-    "axios": "^0.27.2",
+    "axios": "^1.2.5",
     "framer-motion": "^7.6.5",
     "next": "12.2.5",
     "next-themes": "^0.2.0",
